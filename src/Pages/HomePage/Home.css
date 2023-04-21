@@ -1,0 +1,196 @@
+.home-container {
+  padding: 30px;
+  display: flex;
+  margin-left: 220px;
+  margin-top: 60px;
+}
+
+.intro-avatar-container {
+  display: flex; /* Use flexbox */
+  /* Other styles for intro-avatar-container */
+}
+
+.hii-msg {
+  font-weight: bolder;
+}
+
+.im {
+  font-weight: bolder;
+}
+
+.sirname {
+  font-weight: bolder;
+  color: orangered;
+}
+
+.profession {
+  color: purple;
+  font-weight: 700;
+}
+
+.about-btn {
+  width: 140px;
+  height: 40px;
+  background: linear-gradient(90deg, #4e54c8 0%, #8f94fb 100%);
+  color: #fff;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  margin-top: 5px;
+}
+
+.about-btn span {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: top 0.5s;
+}
+
+.btn-text-one {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.btn-text-two {
+  position: absolute;
+  width: 100%;
+  top: 150%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.about-btn:hover .btn-text-one {
+  top: -100%;
+}
+
+.about-btn:hover .btn-text-two {
+  top: 50%;
+}
+.mysocial-link-container {
+  margin-top: 20px;
+}
+.social-button {
+  display: flex;
+  gap: 1rem; /* adjust the value as needed */
+}
+
+.social-button i {
+  font-size: 2rem; /* adjust the value as needed */
+}
+
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  20% {
+    transform: translateX(-10px);
+  }
+  40% {
+    transform: translateX(10px);
+  }
+  60% {
+    transform: translateX(-10px);
+  }
+  80% {
+    transform: translateX(10px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.social-button i:hover {
+  color: orangered; /* change the color to your desired hover color */
+  animation: shake 0.5s; /* adjust the duration and animation name as needed */
+}
+
+.avatar-container {
+  margin-left: 220px;
+
+  /* background-color: black; */
+  /* Other styles for avatar-container */
+}
+
+.avatar-container:hover .avatar {
+  transform: rotate(5deg) scale(1.1) translate(0, -5px); /* Add floating or tilting effect on hover */
+}
+
+.avatar {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+body {
+  background-image: linear-gradient(90deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+/* Media Queries for Responsiveness */
+
+/* Responsive layout for small screens */
+@media (max-width: 768px) {
+  .home-container {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: -0px;
+    /* margin-left: -50px; */
+  }
+
+  .avatar-container {
+    margin-left: -10px;
+    margin-top: 50px;
+  }
+  .intro-avatar-container {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .avatar {
+    width: 250px;
+    height: 250px;
+  }
+
+  .hii-msg {
+    font-size: 30px;
+  }
+
+  .im {
+    font-size: 24px;
+  }
+
+  .sirname {
+    font-size: 24px;
+  }
+
+  .profession {
+    font-size: 20px;
+  }
+
+  .about-btn {
+    width: 126px;
+    height: 42px;
+    font-size: 18px;
+  }
+
+  .btn-text-one,
+  .btn-text-two {
+    font-size: 16px;
+  }
+
+  .mysocial-link-container {
+    margin-top: 21px;
+  }
+
+  .social-button i {
+    font-size: 34px;
+  }
+}

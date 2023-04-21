@@ -1,0 +1,26 @@
+#navbar-elements {
+  /* color: red; */
+  font-weight: 700;
+  margin-left: 30px;
+}
+
+#navbar-elements:hover {
+  color: orangered;
+  border-bottom: 2px solid orangered;
+}
+
+#navbar-elements:focus {
+  color: orangered;
+  border-bottom: 2px solid orangered;
+}
+
+@media (max-width: 768px) {
+  #navbar-elements {
+    /* color: red; */
+    font-weight: 700;
+    margin-left: 5px;
+  }
+  #navbar-elements:hover {
+    border-bottom: none;
+  }
+}
