@@ -135,7 +135,7 @@
   /* --tooltip-height: 35px; */
   /* --tooltip-width: 90px; */
   --gap-between-tooltip-to-button: 18px;
-  --button-color: #1163ff;
+  --button-color: linear-gradient(90deg, #4e54c8 0%, #8f94fb 100%);;
   /* --tooltip-color: #fff; */
   width: var(--width);
   height: var(--height);
