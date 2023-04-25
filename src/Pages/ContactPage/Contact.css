@@ -1,0 +1,89 @@
+.get-in-touch-text-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; /* Center horizontally */
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Rest of the CSS code remains the same */
+
+.getin-text {
+  font-size: 36px; /* Default font size */
+  font-weight: bold;
+}
+
+.touch-text {
+  font-size: 36px; /* Default font size */
+  margin-left: 10px; /* Add margin between "About" and "Me" text */
+  font-weight: bold;
+  color: purple;
+}
+
+.contact-form {
+  /* background-color: #f2f2f2; */
+  padding: 20px;
+  border-radius: 10px;
+  margin: 0 auto; /* Add this line to center the form horizontally */
+  max-width: 800px; /* Add this line to set a maximum width for the form */
+}
+
+.contact-form label {
+  color: black;
+}
+
+.contact-form .heading {
+  font-size: 24px;
+  color: #012970;
+  margin-bottom: 12px;
+  font-weight: bold;
+  display: block;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+}
+
+.contact-form label {
+  margin-bottom: 10px;
+}
+
+textarea {
+  resize: none;
+  height: 80px;
+  width: 100%;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  box-shadow: 0 0 5px orangered;
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+
+.contact-form button[type="submit"] {
+  background-color: orangered;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.contact-form button[type="submit"]:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}

@@ -1,0 +1,109 @@
+.my-education-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; /* Center horizontally */
+  align-items: center;
+  /* margin-top: 20px; */
+}
+
+.my-text {
+  font-size: 36px; /* Default font size */
+  font-weight: bold;
+}
+
+.education-text {
+  font-size: 36px; /* Default font size */
+  margin-left: 10px; /* Add margin between "About" and "Me" text */
+  font-weight: bold;
+  color: purple;
+}
+
+/* EducationPage.css */
+.education-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Add justify-content property */
+  /* min-height: 100vh;  */
+  padding: 24px;
+}
+
+.education-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.education-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  min-width: 800px;
+  margin-top: 40px;
+}
+
+.education-item {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 8px;
+  padding: 16px;
+  width: 100%;
+  overflow: hidden;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Adds a box shadow */
+  transition: box-shadow 0.3s ease-in-out; /* Adds a transition effect to the box shadow */
+}
+
+.education-item:hover {
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Changes the box shadow on hover */
+}
+
+.education-item-image {
+  flex-shrink: 0; /* Add flex-shrink property to prevent image from shrinking */
+  width: 150px;
+  height: 100%; /* Set height to 100% to match card height */
+  border-radius: 8px;
+  margin-right: 16px;
+  object-fit: cover; /* Optional - maintains aspect ratio and crops if necessary */
+}
+
+.education-item-content {
+  flex: 1;
+}
+
+.education-item-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #012970;
+}
+
+.education-item-degree {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.education-item-date {
+  font-size: 20px;
+  color: #226d00;
+  font-weight: bold;
+}
+
+@media (max-width: 900px) {
+  .education-list {
+    min-width: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .education-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .education-item-image {
+    margin-right: 0;
+    margin-bottom: 16px;
+  }
+}

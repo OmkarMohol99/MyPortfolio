@@ -1,49 +1,77 @@
 /* Default styles */
 .skills-and-abilities-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-  }
-  
-  .skills-text,
-  .abilities-text {
-    font-size: 36px;
-    font-weight: bold;
-  }
-  
-  .abilities-text {
-    margin-left: 10px;
-    font-weight: bold;
-    color: purple;
-  }
-  
-  .skills-list {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 1rem;
-    padding: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-  
-  .skill-item {
-    background-color: #000016;
-    color: #fff;
-    padding: 1rem;
-    border-radius: 10px;
-    text-align: center;
-    font-size: 1.2rem;
-    font-weight: bold;
-    transition: box-shadow 0.3s ease; /* Add transition effect for smooth hover effect */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.skills-text,
+.abilities-text {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.abilities-text {
+  margin-left: 10px;
+  font-weight: bold;
+  color: purple;
+}
+
+.skills-list {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+  padding: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.skill-item {
+  background-color: #000016;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: box-shadow 0.3s ease; /* Add transition effect for smooth hover effect */
 }
 
 .skill-item:hover {
-    box-shadow: 0 0 40px rgba(0, 0, 0, 0.9); /* Add shadow effect on hover */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.9); /* Add shadow effect on hover */
 }
 
-  
+.skill-item-image {
+  max-width: 100px;
+  max-height: 100px;
+  object-fit: cover;
+  margin-bottom: 2px;
+  margin-top: 5px;
+  object-fit: cover;
+}
+
+.skill-item-text {
+  margin-top: 10px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .skills-list {
+    grid-template-columns: repeat(
+      2,
+      1fr
+    ); /* Change to 3 columns for screens smaller than 768px */
+    padding-left: 20px; /* Reduce left padding for smaller screens */
+    padding-right: 20px; /* Reduce right padding for smaller screens */
+  }
+
+  .skills-text,
+  .abilities-text {
+    font-size: 24px; /* Decrease font size for smaller screens */
+  }
+
   .skill-item-image {
     max-width: 100px;
     max-height: 100px;
@@ -52,31 +80,4 @@
     margin-top: 5px;
     object-fit: cover;
   }
-  
-  .skill-item-text {
-    margin-top: 10px;
-  }
-  
-  /* Responsive styles */
-  @media screen and (max-width: 768px) {
-    .skills-list {
-      grid-template-columns: repeat(2, 1fr); /* Change to 3 columns for screens smaller than 768px */
-      padding-left: 20px; /* Reduce left padding for smaller screens */
-      padding-right: 20px; /* Reduce right padding for smaller screens */
-    }
-  
-    .skills-text,
-    .abilities-text {
-      font-size: 24px; /* Decrease font size for smaller screens */
-    }
-
-    .skill-item-image {
-        max-width: 100px;
-        max-height: 100px;
-        object-fit: cover;
-        margin-bottom: 2px;
-        margin-top: 5px;
-        object-fit: cover;
-      }
-  }
-  
+}

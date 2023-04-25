@@ -72,7 +72,7 @@ const App = () => {
                   </Link>
                 </h6>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <h6>
                   <Link
                     id="navbar-elements"
@@ -83,7 +83,7 @@ const App = () => {
                     Work
                   </Link>
                 </h6>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <h6>
                   <Link
