@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.6fbd97e6.css",
-    "main.js": "/static/js/main.1516f7c2.js",
+    "main.js": "/static/js/main.d799987b.js",
     "static/js/787.1f11dfe9.chunk.js": "/static/js/787.1f11dfe9.chunk.js",
     "static/media/html5.png": "/static/media/html5.dbc3baa7e405494219e6.png",
     "static/media/zeal_diploma.png": "/static/media/zeal_diploma.3d298a793336b71c27d1.png",
@@ -19,11 +19,11 @@
     "static/media/bootstrap.svg": "/static/media/bootstrap.2abd2d693e882a949b76df3ebda92f74.svg",
     "index.html": "/index.html",
     "main.6fbd97e6.css.map": "/static/css/main.6fbd97e6.css.map",
-    "main.1516f7c2.js.map": "/static/js/main.1516f7c2.js.map",
+    "main.d799987b.js.map": "/static/js/main.d799987b.js.map",
     "787.1f11dfe9.chunk.js.map": "/static/js/787.1f11dfe9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6fbd97e6.css",
-    "static/js/main.1516f7c2.js"
+    "static/js/main.d799987b.js"
   ]
 }
