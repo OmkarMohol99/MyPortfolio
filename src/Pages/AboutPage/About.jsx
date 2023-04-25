@@ -1,8 +1,17 @@
 import React from "react";
 import "./About.css";
 import Profile from "../../Images/profile.jpg";
+import CV from "../../Resume/null.pdf";
 
 const About = () => {
+  const downloadResume = () => {
+    const link = document.createElement("a");
+    link.href = CV;
+    link.download = "OmkarResume.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   return (
     <>
       <div className="about-container">
@@ -28,7 +37,7 @@ const About = () => {
             </h6>
             <h6>Email : omkarmohol0298@gmail.com</h6>
             <h6>Place : Pune, India - 411023</h6>
-            <div className="resume-button">
+            <div className="resume-button" onClick={downloadResume}>
               <div className="button">
                 <div className="button-wrapper">
                   <div className="text">Resume</div>

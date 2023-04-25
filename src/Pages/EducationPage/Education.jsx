@@ -14,11 +14,7 @@ const Education = () => {
 
         <div className="education-list">
           <div className="education-item">
-            <img
-              src={degree}
-              alt="University of ABC"
-              className="education-item-image"
-            />
+            <img src={degree} alt="Degree" className="education-item-image" />
             <div className="education-item-content">
               <h2 className="education-item-title">
                 Bachelor Of Engineering In Mechanical Engineering
@@ -30,11 +26,7 @@ const Education = () => {
             </div>
           </div>
           <div className="education-item">
-            <img
-              src={diploma}
-              alt="XYZ High School"
-              className="education-item-image"
-            />
+            <img src={diploma} alt="Diploma" className="education-item-image" />
             <div className="education-item-content">
               <h2 className="education-item-title">
                 Diploma in Mechanical Engineering
