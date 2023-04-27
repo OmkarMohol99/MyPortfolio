@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.6fbd97e6.css",
-    "main.js": "/static/js/main.d799987b.js",
-    "static/js/787.1f11dfe9.chunk.js": "/static/js/787.1f11dfe9.chunk.js",
-    "static/media/html5.png": "/static/media/html5.dbc3baa7e405494219e6.png",
-    "static/media/zeal_diploma.png": "/static/media/zeal_diploma.3d298a793336b71c27d1.png",
-    "static/media/zeal_degree.jpg": "/static/media/zeal_degree.674e5d7b73b2d6a37bcf.jpg",
-    "static/media/null.pdf": "/static/media/null.14afe39cdd3df556bb7d.pdf",
-    "static/media/profile.jpg": "/static/media/profile.e76206c5ff76b11afec5.jpg",
-    "static/media/github.png": "/static/media/github.3ec61b93854178c47369.png",
-    "static/media/css3.png": "/static/media/css3.8a182087615a3845ebac.png",
-    "static/media/react.png": "/static/media/react.fc0396332c9ab25d028a.png",
-    "static/media/android.png": "/static/media/android.f1b8a565f3d68e6bf8a9.png",
-    "static/media/js.png": "/static/media/js.062825dbceed44567e91.png",
-    "static/media/antd.png": "/static/media/antd.70107c48b41e8de541f5.png",
-    "static/media/Avatar.png": "/static/media/Avatar.0640c77642d59d7b8da2.png",
-    "static/media/redux.png": "/static/media/redux.b3b939c66aecf7d53967.png",
-    "static/media/bootstrap.svg": "/static/media/bootstrap.2abd2d693e882a949b76df3ebda92f74.svg",
-    "index.html": "/index.html",
-    "main.6fbd97e6.css.map": "/static/css/main.6fbd97e6.css.map",
-    "main.d799987b.js.map": "/static/js/main.d799987b.js.map",
-    "787.1f11dfe9.chunk.js.map": "/static/js/787.1f11dfe9.chunk.js.map"
+    "main.css": "/MyPortfolio/static/css/main.6fbd97e6.css",
+    "main.js": "/MyPortfolio/static/js/main.3024efb2.js",
+    "static/js/787.1f11dfe9.chunk.js": "/MyPortfolio/static/js/787.1f11dfe9.chunk.js",
+    "static/media/html5.png": "/MyPortfolio/static/media/html5.dbc3baa7e405494219e6.png",
+    "static/media/zeal_diploma.png": "/MyPortfolio/static/media/zeal_diploma.3d298a793336b71c27d1.png",
+    "static/media/zeal_degree.jpg": "/MyPortfolio/static/media/zeal_degree.674e5d7b73b2d6a37bcf.jpg",
+    "static/media/null.pdf": "/MyPortfolio/static/media/null.14afe39cdd3df556bb7d.pdf",
+    "static/media/profile.jpg": "/MyPortfolio/static/media/profile.e76206c5ff76b11afec5.jpg",
+    "static/media/github.png": "/MyPortfolio/static/media/github.3ec61b93854178c47369.png",
+    "static/media/css3.png": "/MyPortfolio/static/media/css3.8a182087615a3845ebac.png",
+    "static/media/react.png": "/MyPortfolio/static/media/react.fc0396332c9ab25d028a.png",
+    "static/media/android.png": "/MyPortfolio/static/media/android.f1b8a565f3d68e6bf8a9.png",
+    "static/media/js.png": "/MyPortfolio/static/media/js.062825dbceed44567e91.png",
+    "static/media/antd.png": "/MyPortfolio/static/media/antd.70107c48b41e8de541f5.png",
+    "static/media/Avatar.png": "/MyPortfolio/static/media/Avatar.0640c77642d59d7b8da2.png",
+    "static/media/redux.png": "/MyPortfolio/static/media/redux.b3b939c66aecf7d53967.png",
+    "index.html": "/MyPortfolio/index.html",
+    "static/media/bootstrap.svg": "/MyPortfolio/static/media/bootstrap.2abd2d693e882a949b76df3ebda92f74.svg",
+    "main.6fbd97e6.css.map": "/MyPortfolio/static/css/main.6fbd97e6.css.map",
+    "main.3024efb2.js.map": "/MyPortfolio/static/js/main.3024efb2.js.map",
+    "787.1f11dfe9.chunk.js.map": "/MyPortfolio/static/js/787.1f11dfe9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6fbd97e6.css",
-    "static/js/main.d799987b.js"
+    "static/js/main.3024efb2.js"
   ]
 }
