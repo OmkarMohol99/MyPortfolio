@@ -28,12 +28,11 @@ const About = () => {
             <h2>I'm Omkar</h2>
             <h5>Full Stack Developer</h5>
             <h6>
-              I am a Full-Stack developer based in Pune, India. I am an
-              Information Technology undergraduate from SPPU. I am very
-              passionate about improving my coding skills & developing
-              applications & websites. I build WebApps and Websites using MERN
-              Stack. Working for myself to improve my skills. Love to build
-              Full-Stack clones.
+              I am a Full-Stack developer based in Pune, India. I am Mechanical
+              Engineering graduate from SPPU. I am very passionate about
+              improving my coding skills & developing applications & websites. I
+              build WebApps and Websites using React Full Stack. Working for
+              myself to improve my skills. Love to build Full-Stack clones.
             </h6>
             <h6>Email : omkarmohol0298@gmail.com</h6>
             <h6>Place : Pune, India - 411023</h6>
