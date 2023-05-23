@@ -25,9 +25,9 @@ const Experience = () => {
           </li>
           <li className="experience-item">
             <div className="experience-item-content">
-              <h2 className="experience-item-title">Apprely Technologies</h2>
+              <h2 className="experience-item-title">Avecircle Technologies</h2>
               <h3 className="experience-item-role">Full Stack Developer</h3>
-              <p className="experience-item-date">Dec 2022 - Present</p>
+              <p className="experience-item-date">Sep 2021 - Dec 2022</p>
               <p className="experience-item-description">
                 Skills: Python (Programming Language) · Django · React.js ·
                 MySQL · drf · JSON · Pycharm · Visual Studio · HTML · Cascading

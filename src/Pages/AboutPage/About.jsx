@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import Profile from "../../Images/profile.jpg";
-import CV from "../../Resume/null.pdf";
+import CV from "../../Resume/Omkar.pdf";
 
 const About = () => {
   const downloadResume = () => {
